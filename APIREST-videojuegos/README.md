@@ -176,6 +176,18 @@ Significa que el contenedor que vamos a levantar luego, va a escuchar el puerto 
 
 CMD ["node", "app.js"] le dice a Docker que comando ejecutar cuando se inicia el contenedor. Lo que hace es arrancar el servidor dentro del contenedor, y en este caso ejecuta el Node.js y la app.js
 
+
+Archivo package.json
+En este apartado de mi script
+"start": "node app.js"
+Pongo "node", ya que los archivos .js no son ejecutables por sí mismos en tu sistema operativo, entonces necesita el motor
+node.js para poder ejecutar el archivo
+
+Luego en esta linia
+    "express": "^4.18.2"
+Usamos "^", ya que usando ese símbolo hacemos que la versión sea flexible, que tenga más escalabilidad, es decir,
+puede instalar actualizaciones menores o parches automáticamente, pero no puede hacer actualizaciones mayores como
+pasar de la versión 4 a la 5
 Task 4
 
 Deploy your API REST as production-ready on a production server. For this project, consider the following:
