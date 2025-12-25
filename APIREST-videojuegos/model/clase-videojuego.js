@@ -1,4 +1,4 @@
-class videojoc {
+class Videojuego {
     constructor(id, titulo, genero, platforma, year) {
         this.id = id;
         this.titulo = titulo;
@@ -8,4 +8,4 @@ class videojoc {
     }
 }
 
-module.exports = videojoc;
+module.exports = Videojuego;
