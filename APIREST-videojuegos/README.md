@@ -125,7 +125,10 @@ la configuración que he estado haciendo sobre mi API REST
 
 Task 2
 
-During development it’s really important that you keep storing your advances on GitHub. Everytime you archive something, push it towards your repository with a message of your work. The more commits and clear messages, the better. You should create one branch for each task and merge them to the main branch once finished. That way you can keep track of unfinished tasks.
+During development it’s really important that you keep storing your advances on GitHub. Everytime you archive something,
+push it towards your repository with a message of your work. The more commits and clear messages, the better. You should
+create one branch for each task and merge them to the main branch once finished. That way you can keep track of unfinished
+tasks.
 
 
 Task 3
@@ -141,6 +144,37 @@ The application should not be installed or executed as a root user.
 Deploy your image to DockerHub. Keep track of the version number, don’t overwrite them.
 Make a readme/manual on how to put the image to work.
 
+
+Esta es la configuración que tiene mi Dockerfile (lo que has pedido).
+
+Como podemos ver, he usado node.js como base, que es un entorno de ejecución. El número 20 que aparece es la versión de la imagen que vamos a utilizar de node.js y el alpine es la versión ligera para poder arrancar el container
+
+Luego creamos un grupo para poder asignar los usuarios a los grupos creados, Técnicamente no es necesario crear un grupo, ya que solo tenemos 1 usuario, pero me he informado y resulta que por temas de seguridad, gestión de manera más sencilla y limpia y para tema escalabilidad, ya que si luego se van a crear más usuarios se puedan asignar a los grupos creados.
+
+Creamos el grupo con este comando:
+
+	addgroup -S (system user) “el nombre del grupo que quieras”
+
+&& (se ejecuta el siguiente comando solo si el anterior ha sido creado correctamente)
+
+	adduser -S “el nombre del usuario que queramos”
+
+
+El siguiente comando WORKDIR /app lo que hace es que el directorio que va usar el container para trabajar
+
+Luego viene npm (Node Package manager) install, lo que hace este comando es instalar todas las dependencias, las administra y ejecuta los scripts que hemos definido en mi package.json
+
+Luego tenemos COPY . .
+Este comando lo que hace es:
+El primer “.”  lo que hace es copiar todos los archivos y carpetas que están dentro de la carpeta principal APIREST-videojuegos
+
+	El segundo “.” es el directorio dentro del contenedor donde vamos a poner los archivos, y como anteriormente hemos puesto WORKDIR /app, se van a copiar dentro de la carpeta app que hemos creado.
+
+EXPOSE 8080
+Significa que el contenedor que vamos a levantar luego, va a escuchar el puerto 8080 y a la hora de entrar con la URL que nos den tendremos que poner el puerto 8080
+
+
+CMD ["node", "app.js"] le dice a Docker que comando ejecutar cuando se inicia el contenedor. Lo que hace es arrancar el servidor dentro del contenedor, y en este caso ejecuta el Node.js y la app.js
 
 Task 4
 

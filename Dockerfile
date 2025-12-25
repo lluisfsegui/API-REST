@@ -1,4 +1,15 @@
-FROM ubuntu:latest
-LABEL authors="Usuario"
+FROM node:20-alpine
 
-ENTRYPOINT ["top", "-b"]
+RUN addgroup -S apivideojuego && adduser -S lluisfsegui -G apivideojuego
+USER lluisfsegui
+
+WORKDIR /app
+
+COPY package.json ./
+RUN npm install
+
+COPY . .
+
+EXPOSE 8080
+
+CMD ["node", "app.js"]
