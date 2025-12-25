@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "titulo": "League of Legends",
+    "genero": "MOBA",
+    "platforma": "PC",
+    "year": 2009
+  },
+  {
+    "id": 2,
+    "titulo": "Valorant",
+    "genero": "FPS",
+    "platforma": "PC, Consola",
+    "year": 2020
+  },
+  {
+    "id": 3,
+    "titulo": "Teamfight Tactics",
+    "genero": "Auto Battler",
+    "platforma": "PC, Movil",
+    "year": 2019
+  }
+]
+
