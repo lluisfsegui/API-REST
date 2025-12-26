@@ -1,7 +1,6 @@
-// FUNCION PC
 const fs = require('fs');
 const Videojuego = require('../model/clase-videojuego');
-
+// FUNCION PC
 exports.listarVideojuegosPC = async (req, res) => {
 
     const videojuegosJson = JSON.parse(fs.readFileSync('./data/videojuegos.json', 'utf-8'));

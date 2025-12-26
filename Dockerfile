@@ -5,10 +5,13 @@ USER lluisfsegui
 
 WORKDIR /app
 
-COPY package.json ./
+RUN chown -R lluisfsegui:apivideojuego /app
+USER lluisfsegui
+
+COPY --chown=lluisfsegui:apivideojuego package.json ./
 RUN npm install
 
-COPY . .
+COPY --chown=lluisfsegui:apivideojuego . .
 
 EXPOSE 8080
 
