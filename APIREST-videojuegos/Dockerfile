@@ -11,7 +11,7 @@ USER lluisfsegui
 COPY --chown=lluisfsegui:apivideojuego package.json ./
 RUN npm install
 
-COPY --chown=lluisfsegui:apivideojuego . .
+COPY --chown=lluisfsegui:apivideojuego .. .
 
 EXPOSE 8080
 
