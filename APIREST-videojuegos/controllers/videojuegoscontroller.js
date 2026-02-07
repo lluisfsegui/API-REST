@@ -14,7 +14,7 @@ exports.listarVideojuegosPC = async (req, res) => {
         const juego = videojuegos[i];
 
         if (juego.platforma.indexOf("PC") > -1) {
-            videojuegosFiltrats.push(juego);
+            videojuegosFiltrados.push(juego);
         }
     }
 

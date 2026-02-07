@@ -2,6 +2,8 @@ var express = require('express');
 var app = express();
 const videojuegosRoutes = require('./routes/videojuegos');
 
+app.set('json spaces', 2);
+
 app.use('/api/videojuegos', videojuegosRoutes);
 
 app.use(express.json());

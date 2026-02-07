@@ -19,6 +19,335 @@
     "genero": "Auto Battler",
     "platforma": "PC, Movil",
     "year": 2019
+  },
+  {
+    "id": 4,
+    "titulo": "Minecraft",
+    "genero": "Sandbox",
+    "platforma": "PC, Consola, Movil",
+    "year": 2011
+  },
+  {
+    "id": 5,
+    "titulo": "Fortnite",
+    "genero": "Battle Royale",
+    "platforma": "PC, Consola, Movil",
+    "year": 2017
+  },
+  {
+    "id": 6,
+    "titulo": "God of War",
+    "genero": "Acción",
+    "platforma": "Consola",
+    "year": 2018
+  },
+  {
+    "id": 7,
+    "titulo": "Clash Royale",
+    "genero": "Estrategia",
+    "platforma": "Movil",
+    "year": 2016
+  },
+  {
+    "id": 8,
+    "titulo": "Hades",
+    "genero": "Roguelike",
+    "platforma": "PC, Consola",
+    "year": 2020
+  },
+  {
+    "id": 9,
+    "titulo": "Genshin Impact",
+    "genero": "ARPG",
+    "platforma": "PC, Consola, Movil",
+    "year": 2020
+  },
+  {
+    "id": 10,
+    "titulo": "Stardew Valley",
+    "genero": "Simulación",
+    "platforma": "PC, Consola, Movil",
+    "year": 2016
+  },
+  {
+    "id": 11,
+    "titulo": "Forza Horizon 5",
+    "genero": "Carreras",
+    "platforma": "PC, Consola",
+    "year": 2021
+  },
+  {
+    "id": 12,
+    "titulo": "PUBG Mobile",
+    "genero": "Battle Royale",
+    "platforma": "Movil",
+    "year": 2018
+  },
+  {
+    "id": 13,
+    "titulo": "Hollow Knight",
+    "genero": "Metroidvania",
+    "platforma": "PC, Consola",
+    "year": 2017
+  },
+  {
+    "id": 14,
+    "titulo": "The Last of Us",
+    "genero": "Acción",
+    "platforma": "Consola",
+    "year": 2013
+  },
+  {
+    "id": 15,
+    "titulo": "Apex Legends",
+    "genero": "Battle Royale",
+    "platforma": "PC, Consola",
+    "year": 2019
+  },
+  {
+    "id": 16,
+    "titulo": "Candy Crush Saga",
+    "genero": "Puzzle",
+    "platforma": "Movil",
+    "year": 2012
+  },
+  {
+    "id": 17,
+    "titulo": "Cyberpunk 2077",
+    "genero": "RPG",
+    "platforma": "PC, Consola",
+    "year": 2020
+  },
+  {
+    "id": 18,
+    "titulo": "Among Us",
+    "genero": "Party",
+    "platforma": "PC, Consola, Movil",
+    "year": 2018
+  },
+  {
+    "id": 19,
+    "titulo": "Rocket League",
+    "genero": "Deportes",
+    "platforma": "PC, Consola",
+    "year": 2015
+  },
+  {
+    "id": 20,
+    "titulo": "Call of Duty Mobile",
+    "genero": "FPS",
+    "platforma": "Movil",
+    "year": 2019
+  },
+  {
+    "id": 21,
+    "titulo": "Red Dead Redemption 2",
+    "genero": "Acción",
+    "platforma": "PC, Consola",
+    "year": 2018
+  },
+  {
+    "id": 22,
+    "titulo": "Super Mario Odyssey",
+    "genero": "Plataformas",
+    "platforma": "Consola",
+    "year": 2017
+  },
+  {
+    "id": 23,
+    "titulo": "Brawl Stars",
+    "genero": "Acción",
+    "platforma": "Movil",
+    "year": 2018
+  },
+  {
+    "id": 24,
+    "titulo": "Elden Ring",
+    "genero": "RPG",
+    "platforma": "PC, Consola",
+    "year": 2022
+  },
+  {
+    "id": 25,
+    "titulo": "Terraria",
+    "genero": "Sandbox",
+    "platforma": "PC, Consola, Movil",
+    "year": 2011
+  },
+  {
+    "id": 26,
+    "titulo": "FIFA 23",
+    "genero": "Deportes",
+    "platforma": "PC, Consola",
+    "year": 2022
+  },
+  {
+    "id": 27,
+    "titulo": "Mobile Legends",
+    "genero": "MOBA",
+    "platforma": "Movil",
+    "year": 2016
+  },
+  {
+    "id": 28,
+    "titulo": "Gran Turismo 7",
+    "genero": "Carreras",
+    "platforma": "Consola",
+    "year": 2022
+  },
+  {
+    "id": 29,
+    "titulo": "Overwatch 2",
+    "genero": "FPS",
+    "platforma": "PC, Consola",
+    "year": 2022
+  },
+  {
+    "id": 30,
+    "titulo": "Subway Surfers",
+    "genero": "Arcade",
+    "platforma": "Movil",
+    "year": 2012
+  },
+  {
+    "id": 31,
+    "titulo": "The Witcher 3",
+    "genero": "RPG",
+    "platforma": "PC, Consola",
+    "year": 2015
+  },
+  {
+    "id": 32,
+    "titulo": "Animal Crossing: New Horizons",
+    "genero": "Simulación",
+    "platforma": "Consola",
+    "year": 2020
+  },
+  {
+    "id": 33,
+    "titulo": "Dead Cells",
+    "genero": "Roguelike",
+    "platforma": "PC, Consola, Movil",
+    "year": 2018
+  },
+  {
+    "id": 34,
+    "titulo": "Halo Infinite",
+    "genero": "FPS",
+    "platforma": "PC, Consola",
+    "year": 2021
+  },
+  {
+    "id": 35,
+    "titulo": "Asphalt 9",
+    "genero": "Carreras",
+    "platforma": "Movil",
+    "year": 2018
+  },
+  {
+    "id": 36,
+    "titulo": "Bloodborne",
+    "genero": "Acción",
+    "platforma": "Consola",
+    "year": 2015
+  },
+  {
+    "id": 37,
+    "titulo": "RimWorld",
+    "genero": "Simulación",
+    "platforma": "PC",
+    "year": 2018
+  },
+  {
+    "id": 38,
+    "titulo": "Fire Emblem: Three Houses",
+    "genero": "Estrategia",
+    "platforma": "Consola",
+    "year": 2019
+  },
+  {
+    "id": 39,
+    "titulo": "Arknights",
+    "genero": "Estrategia",
+    "platforma": "Movil",
+    "year": 2020
+  },
+  {
+    "id": 40,
+    "titulo": "Dota 2",
+    "genero": "MOBA",
+    "platforma": "PC",
+    "year": 2013
+  },
+  {
+    "id": 41,
+    "titulo": "Horizon Forbidden West",
+    "genero": "Acción",
+    "platforma": "Consola",
+    "year": 2022
+  },
+  {
+    "id": 42,
+    "titulo": "Slay the Spire",
+    "genero": "Cartas",
+    "platforma": "PC, Consola, Movil",
+    "year": 2019
+  },
+  {
+    "id": 43,
+    "titulo": "Destiny 2",
+    "genero": "FPS",
+    "platforma": "PC, Consola",
+    "year": 2017
+  },
+  {
+    "id": 44,
+    "titulo": "Pokémon Unite",
+    "genero": "MOBA",
+    "platforma": "Consola, Movil",
+    "year": 2021
+  },
+  {
+    "id": 45,
+    "titulo": "Path of Exile",
+    "genero": "ARPG",
+    "platforma": "PC, Consola",
+    "year": 2013
+  },
+  {
+    "id": 46,
+    "titulo": "Clash of Clans",
+    "genero": "Estrategia",
+    "platforma": "Movil",
+    "year": 2012
+  },
+  {
+    "id": 47,
+    "titulo": "Sea of Thieves",
+    "genero": "Aventura",
+    "platforma": "PC, Consola",
+    "year": 2018
+  },
+  {
+    "id": 48,
+    "titulo": "Mario Kart 8 Deluxe",
+    "genero": "Carreras",
+    "platforma": "Consola",
+    "year": 2017
+  },
+  {
+    "id": 49,
+    "titulo": "Diablo Immortal",
+    "genero": "ARPG",
+    "platforma": "PC, Movil",
+    "year": 2022
+  },
+  {
+    "id": 50,
+    "titulo": "Warframe",
+    "genero": "Acción",
+    "platforma": "PC, Consola",
+    "year": 2013
   }
 ]
 
