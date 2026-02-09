@@ -8,6 +8,5 @@ router.get('/consola', variableVJ1.listarVideojuegosConsola);
 router.get('/', variableVJ1.listarTodos);
 router.get('/:id', variableVJ1.buscarPorId);
 router.get('/buscar/nombre', variableVJ1.buscarPorNombre);
-router.post('/calcular', variableVJ1.calcularOrden);
 
 module.exports = router;
