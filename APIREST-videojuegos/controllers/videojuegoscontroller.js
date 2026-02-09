@@ -28,7 +28,7 @@ exports.buscarPorId = async (req, res) => {
             resultado = videojuegos[i];
         }
     }
-    
+
     return res.json(resultado);
 };
 
@@ -56,23 +56,6 @@ exports.buscarPorNombre = async (req, res) => {
     }
 
     return res.json(filtrados);
-};
-
-
-// FUNCION CALCULAR ORDEN
-exports.calcularOrden = async (req, res) => {
-
-    const lista = req.body;
-
-    if (!Array.isArray(lista)) {
-        return res.status(400).json({ error: "Debes enviar un array JSON" });
-    }
-
-    lista.sort(function(a, b) {
-        return a.surname.localeCompare(b.surname);
-    });
-
-    return res.json(lista);
 };
 
 // FUNCION PC
